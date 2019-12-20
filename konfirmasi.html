@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BatikSelaras</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/konfirmasi.css">
+    <!-- END STYLE -->
+</head>
+
+<body>
+    <div class="container ">
+        <!-- HEADER -->
+        <div class="navbar">
+            <h1 class="title">BATIK Selaras</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Product</a>
+                    <div class="sub-menu">
+                        <a href="batikwanita.html">Batik Pria</a>
+                        <a href="batikpria.html">Batik Wanita</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Informasi</a>
+                    <div class="sub-menu">
+                        <a href="tokokami.html">Toko Kami</a>
+                        <a href="tentangkami.html">Tentang Kami</a>
+                        <a href="pengiriman.html">Pengiriman Barang</a>
+                        <a href="konfirmasi.html">Konfirmasi Pembayaran</a>
+                    </div>
+                </li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li style="float: right;"><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <!-- END HEADER -->
+
+        <!-- CONTENT -->
+        <div class="content cf">
+            <h1>KONFIRMASI PEMESANAN</h1>
+            <form action="">
+                <label for="order">Referensi Order *</label>
+                <input type="text" name="order" id="order" class="khusus">
+                <br>
+                <label for="email">Email *</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="nama">Nama</label>
+                <input type="text" name="nama" id="nama">
+                <br>
+                <label for="jumlah">Jumlah</label>
+                <span class="rupiah">Rp&lrm;</span>
+                <input type="text" name="jumlah" id="jumlah" class="khusus1">
+                <br>
+                <label for="tanggal">Tanggal</label>
+                <input type="type" name="tanggal" id="tanggal" placeholder="DD-MM-YYYY" class="khusus2">
+                <br>
+                <label for="waktu">Waktu</label>
+                <input type="text" name="waktu" id="waktu" class="khusus2">
+                <br>
+                <label for="bank">Transfer Ke</label>
+                <select name="bank" id="bank" class="khusus3">
+                    <option>BCA No.Rek 8035147582 a.n Fauzan Agra P</option>
+                    <option>JENIUS No.Rek 90013195199 a.n Fauzan Agra P</option>
+                </select>
+                <br>
+                <label for="metode">Metode Pembayaran</label>
+                <select name="metode" id="metode" class="khusus3">
+                    <option>ATM</option>
+                    <option>Transfer</option>
+                    <option>Internet Banking</option>
+                    <option>Mobile/SMS Banking</option>
+                </select>
+                <br>
+                <label for="catatan">Catatan</label>
+                <textarea name="catatan" id="catatan"></textarea>
+                <br>
+                <label for="lampiran">Bukti</label>
+                <input type="file" name="lampiran" id="lampiran">
+                <input type="button" value="KIRIM" class="bottom">
+            </form>
+        </div>
+        <!-- END CONTENT -->
+        <!-- FOOTER STATIC -->
+        <div class="footer-static cf">
+            <div class="informasi">
+                <h1>BATIK Selaras</h1>
+                <p>
+                    Nikmati mudahnya belanja baju batik di BATIK Selaras. Beragam model baju batik dengan kualitas
+                    terbaik dan jaminan harga terjangkau.Jika ada pertanyaan silahkan hubungi customer service kami :).
+                    Selamat berbelanja
+                </p>
+                <h2>Jl Candi Mutiara Timur I/1594,Kel.Kalipancur Kec.Ngaliyan,Kota Semarang</h2>
+                <h2>SMS/Whatsapp : 081225610485</h2>
+                <h2>Email : fauzanagra1@gmail.com</h2>
+            </div>
+            <div class="informasi2">
+                <h1>INFORMASI</h1>
+                <h2><a href="tokokami.html">Toko Kami</a></h2>
+                <h2><a href="tentangkami.html">Tentang Kami</a></h2>
+                <h2><a href="pengiriman.html">Pengiriman Barang</a></h2>
+                <h2><a href="#">Dropship Reseller Batik</a></h2>
+            </div>
+            <div class="informasi2">
+                <h1>AKUN SAYA</h1>
+                <h2><a href="#">Alamat Saya</a></h2>
+                <h2><a href="#">Informasi Akun</a></h2>
+            </div>
+        </div>
+        <!-- END FOOTER STATIC -->
+
+        <!-- FOOTER -->
+        <div class="footer">
+            COPYRIGHT &copy; 2019 - BATIK Selaras
+        </div>
+        <!-- END FOOTER -->
+    </div>
+</body>
+
+</html>

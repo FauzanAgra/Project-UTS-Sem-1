@@ -1,0 +1,27 @@
+.content{
+    padding: 20px 70px;
+}
+
+.content h1{
+    text-align: center;
+    font-family: Raleway-Bold;
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+    padding: 5px 0 5px 5px;
+    border-bottom: 2px solid tomato;
+}
+.content  p{
+    padding: 0 20px;
+    text-align: justify;
+    font-family: Raleway-Light;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.besar{
+    padding: 0 20px;
+    text-align: justify;
+    font-family: Raleway-Tebal;
+    font-size: 18px;
+    line-height: 25px;
+}

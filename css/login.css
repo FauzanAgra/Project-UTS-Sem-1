@@ -1,0 +1,99 @@
+.content{
+    padding: 20px;
+}
+
+.content h1{
+    margin: 20px 20px 0 50px;
+    padding: 0 0 10px 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Raleway-Medium;
+    border-bottom: 3px solid #ED4F50;
+}
+
+.form1{
+    border: 1px solid #d6d4d4;
+    float: left;
+    margin: 20px 0px 0 50px;
+    padding: 15px 10px 25px 25px;
+    width: 46%;
+    height: 350px;
+    background: #f1eded;
+    line-height: 30px;
+}
+
+.form2{
+    border: 1px solid #d6d4d4;
+    float: left;
+    margin: 20px 0px 0 20px;
+    padding: 15px 10px 25px 25px;
+    width: 46%;
+    height: 350px;
+    background: #f1eded;
+    line-height: 33px;
+}
+
+.form1 h2, .form2 h2{
+    
+    font-family: Raleway-Tebal;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid #d6d4d4;
+}
+.form1 p{
+    padding: 0 0 0 10px;
+    font-size: 15px;
+    font-family: Raleway-Light;
+}
+.form1 label, .form2 label{
+    padding: 0 0 0 10px;
+    font-family: Raleway-SemiBold;
+}
+
+.form1 input[type=email]{
+    margin: 10px 0 0 10px;
+    display: block;
+    width: 250px;
+    padding: 5px;
+}
+.form2 input[type=email], input[type=password]{
+    margin: 10px 0 0 10px;
+    display: block;
+    width: 250px;
+    padding: 5px;
+}
+
+.form1 .button {
+    font-family: Raleway-Medium;
+    font-size: 13px;
+    text-decoration: none;
+    background: #252525;
+    color: #ffffff;
+    display: block;
+    height: 40px;
+    width: 140px;
+    line-height: 40px;
+    margin: 20px 0 0 10px;
+    text-align: center;
+
+}
+       
+.form2 input[type=submit]{
+    font-family: Raleway-Medium;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    margin: 10px 0 0 10px;
+    height: 40px;
+    width: 140px;
+    color: #ffffff;
+    background: #252525;
+}
+
+.form2 a{
+    color: #3d3b3b;
+    padding: 0 0 0 10px;
+    font-size: 13px;
+    font-family: Raleway-Light;
+}
